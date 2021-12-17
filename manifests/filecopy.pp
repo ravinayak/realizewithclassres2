@@ -2,7 +2,7 @@ class realizewithclassres2::filecopy{
 
   include realizewithclassres1::uservirtualfile
 
-  file { '/etc/filecopyrealizeres2':
+  file { '/etc/filecopyrealizewithclassres2':
     ensure => file,
     owner  => 'neo5',
     group  => 'neo5',
